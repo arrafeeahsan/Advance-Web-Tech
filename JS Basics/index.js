@@ -64,7 +64,7 @@ console.log('No delay...');*/
 // 			setTimeout(()=>{
 // 				let sum = a+b;
 // 				resolve(sum);
-// 			}, 2000);
+// 			}, 3000);
 			
 // 		}else{
 // 			reject(0);
@@ -104,46 +104,46 @@ console.log(s1.getName());*/
 
 
  
-/*const f2 = function(f){
+// const f2 = function(f){
 	
-	let sum = 10;
-	setTimeout(()=>{
-		f(sum);
-	}, 3000);
+// 	let sum = 10;
+// 	setTimeout(()=>{
+// 		f(sum);
+// 	}, 3000);
 	
-	console.log('Function 2');
-}
+// 	console.log('Function 2');
+// }
 
-f2(function(sum){
+// f2(function(sum){
 
-	console.log(`Value is: ${sum}`);
-});*/
+// 	console.log(`Value is: ${sum}`);
+// });
 
-/*function sum2(a, b){
-	if (a !== 0 && b !== 0) {
-			setTimeout(()=>{
-				let sum = a+b;
-				return sum;
-			}, 3000);
-	}else{
-		return 'error';
-	}
-}
+// function sum2(a, b){
+// 	if (a !== 0 && b !== 0) {
+// 			setTimeout(()=>{
+// 				let sum = a+b;
+// 				return sum;
+// 			}, 3000);
+// 	}else{
+// 		return 'error';
+// 	}
+// }
 
-function mytask2(a, b){
-	let total = sum2(a,b);
-	console.log(`Total value is: ${total}`);
-}
+// function mytask2(a, b){
+// 	let total = sum2(a,b);
+// 	console.log(`Total value is: ${total}`);
+// }
 
-mytask2(10,30);
-console.log('Another task....');
+// mytask2(10,30);
+// console.log('Another task....');
 
 
 
-*/
 
-//import {Student, id} from './student';
-import Student from './student';
+
+//import {Student, id} from './Student';
+import Student from './Student'; //when default export
 
 
 const s1 = new Student('alamin', 'alamin@aiub.edu', 'CSE');
